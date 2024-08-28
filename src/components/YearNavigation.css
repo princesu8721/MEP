@@ -1,0 +1,46 @@
+.year-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+    position: relative;
+}
+
+.year-navigation::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 250px); 
+    right: calc(50% - 250px); 
+    height: 2px;
+    background-color: #babdba;
+    z-index: 0;
+}
+
+.year-button {
+    position: relative;
+    background-color: #aae5ad; 
+    color: #000000;
+    padding: 5px 10px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.year-button:hover {
+    background-color: #66bb6a; 
+}
+
+.year-button.active {
+    background-color: #035523; 
+}
+
+.year-button:first-child::before,
+.year-button:last-child::after {
+    content: none; 
+}
