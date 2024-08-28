@@ -1,7 +1,7 @@
 import React from 'react';
 import './SidebarItem.css';
 
-const SidebarItem = ({ item }) => {
+const SidebarItem = ({ item}) => {
     return (
         <div className="sidebar-item">
             <img src={item.image} alt={item.title} />

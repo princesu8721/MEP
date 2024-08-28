@@ -12,6 +12,8 @@ const QuestList = ({ quests }) => {
                     description={quest.description}
                     skills={quest.skills}
                     teamMembers={quest.teamMembers}
+                    link={quest.link}
+                    titleColor={quest.titleColor}
                 />
             ))}
         </div>

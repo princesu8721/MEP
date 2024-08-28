@@ -6,19 +6,21 @@
 }
 
 .quest-item {
+    width: 95%;
     background-color: #fff;
     border: 1px solid #eaeaea;
-    padding: 15px;
+    padding-left: 10px;
+    padding-right: 0px;
     border-radius: 10px;
 }
 
 .quest-item h3 {
-    font-size: 18px;
+    font-size: 15px;
     margin: 0 0 10px;
 }
 
 .quest-item p {
-    font-size: 14px;
+    font-size: 12px;
     color: #555;
     margin: 0 0 10px;
 }
@@ -29,8 +31,7 @@
 
 .skill {
     display: inline-block;
-    background-color: #0073e6;
-    color: white;
+    color: black;
     padding: 5px 10px;
     border-radius: 5px;
     margin-right: 5px;

@@ -23,7 +23,41 @@ const App = () => {
               { name: "Test 5", image: "https://i.pravatar.cc/50?img=5" },
               { name: "Test 6", image: "https://i.pravatar.cc/50?img=6" },
           ],
+          link: "https://www.google.com",
+          titleColor: 'red'
       },
+      {
+        year: 2024,
+        title: "Project Number 2",
+        description: "Very brief description of the Project Number 1 in a single sentence.",
+        skills: ["Java", "Kafka", "AWS", "React"],
+        teamMembers: [
+            { name: "Test 1", image: "https://i.pravatar.cc/50?img=1" },
+            { name: "Test 2", image: "https://i.pravatar.cc/50?img=2" },
+            { name: "Test 3", image: "https://i.pravatar.cc/50?img=3" },
+            { name: "Test 4", image: "https://i.pravatar.cc/50?img=4" },
+            { name: "Test 5", image: "https://i.pravatar.cc/50?img=5" },
+            { name: "Test 6", image: "https://i.pravatar.cc/50?img=6" },
+        ],
+        link: "https://www.google.com",
+          titleColor: 'green'
+    },
+    {
+      year: 2024,
+      title: "Project Number 3",
+      description: "Very brief description of the Project Number 1 in a single sentence.",
+      skills: ["Java", ".NET", "AWS", "React"],
+      teamMembers: [
+          { name: "Test 1", image: "https://i.pravatar.cc/50?img=1" },
+          { name: "Test 2", image: "https://i.pravatar.cc/50?img=2" },
+          { name: "Test 3", image: "https://i.pravatar.cc/50?img=3" },
+          { name: "Test 4", image: "https://i.pravatar.cc/50?img=4" },
+          { name: "Test 5", image: "https://i.pravatar.cc/50?img=5" },
+          { name: "Test 6", image: "https://i.pravatar.cc/50?img=6" },
+      ],
+      link: "https://www.google.com",
+          titleColor: 'brown'
+  },
       {
         year: 2023,
         title: "Project Number 2",
